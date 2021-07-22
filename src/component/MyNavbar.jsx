@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { connect } from "react-redux";
 
 import {
   Navbar,
@@ -23,7 +24,9 @@ class MyNavbar extends React.Component {
           <NavbarBrand>Emmerce</NavbarBrand>
           <Nav>
             <NavItem>
-              <NavbarText className="nav">Hi, Username</NavbarText>
+              <NavbarText className="nav">
+                Hi, {this.props.userGlobal.username}
+              </NavbarText>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret className={{ marginLeft: "20px" }}>
@@ -37,7 +40,7 @@ class MyNavbar extends React.Component {
                   <Link to="/history">History</Link>
                 </DropdownItem>
                 <DropdownItem>
-                  <Link to="/ProductDetail">Product Detail</Link>
+                  <Link to="/product-detail">Product Detail</Link>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
@@ -48,4 +51,10 @@ class MyNavbar extends React.Component {
   }
 }
 
-export default MyNavbar;
+const mapStateToProps = (state) => {
+  return {
+    userGlobal: state.user,
+  };
+};
+
+export default connect(mapStateToProps)(MyNavbar);

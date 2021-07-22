@@ -1,0 +1,79 @@
+{
+  "user": [
+    {
+      "fullName": "Juan Frank",
+      "username": "Juan",
+      "email": "juan@mail.com",
+      "password": "password",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "fullName": "Jeff Bardos",
+      "username": "Jeff",
+      "email": "jeff@mail.com",
+      "password": "passowrd",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "fullName": "Bambang",
+      "username": "bambangtut",
+      "email": "bambang@mail.com",
+      "password": "password",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "fullName": "Adela",
+      "username": "adela123",
+      "email": "adela@mail.com",
+      "password": "passowrd",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "fullName": "John ",
+      "username": "John",
+      "email": "john@mail.com",
+      "password": "password",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "fullName": "John ",
+      "username": "John",
+      "email": "john@mail.com",
+      "password": "password",
+      "role": "user",
+      "id": 9
+    },
+    {
+      "fullName": "Stella Harum",
+      "username": "Stella",
+      "email": "stela@mail.com",
+      "password": "password",
+      "role": "user",
+      "id": 10
+    },
+    {
+      "fullName": "Stella Harum",
+      "username": "Stella",
+      "email": "stela@mail.com",
+      "password": "password",
+      "role": "user",
+      "id": 11
+    },
+    {
+      "fullName": "Umar",
+      "username": "umar",
+      "email": "umar@mail.com",
+      "password": "password",
+      "role": "user",
+      "id": 12
+    }
+  ],
+  "transactions": [],
+  "products": [],
+  "carts": []
+}
