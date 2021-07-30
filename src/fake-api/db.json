@@ -41,14 +41,6 @@
       "id": 8
     },
     {
-      "fullName": "John ",
-      "username": "John",
-      "email": "john@mail.com",
-      "password": "password",
-      "role": "user",
-      "id": 9
-    },
-    {
       "fullName": "Stella Harum",
       "username": "Stella",
       "email": "stela@mail.com",
@@ -57,23 +49,260 @@
       "id": 10
     },
     {
-      "fullName": "Stella Harum",
-      "username": "Stella",
-      "email": "stela@mail.com",
-      "password": "password",
-      "role": "user",
-      "id": 11
-    },
-    {
       "fullName": "Umar",
       "username": "umar",
       "email": "umar@mail.com",
       "password": "password",
       "role": "user",
       "id": 12
+    },
+    {
+      "fullName": "Super Admin",
+      "username": "admin",
+      "email": "admin@mail.com",
+      "password": "password",
+      "role": "admin",
+      "id": 13
+    },
+    {
+      "fullName": "Denzel Washinton",
+      "username": "denzel",
+      "email": "denzel@mail.com",
+      "password": "password",
+      "role": "user",
+      "id": 14
     }
   ],
-  "transactions": [],
-  "products": [],
-  "carts": []
+  "transactions": [
+    {
+      "userId": 12,
+      "address": "jalan ini",
+      "recipientName": "umar",
+      "totalPrice": 169050,
+      "totalPayment": 200000,
+      "transactionDate": "29-6-2021",
+      "transactionItems": [
+        {
+          "userId": 12,
+          "productId": 2,
+          "price": 23000,
+          "productName": "Kaos Putih Polos",
+          "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/1ccc62f925118a5e2a54f9ca1b0eac4b197477ba_xxl-1.jpg",
+          "quantity": 7,
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 12,
+      "address": "jalan ini",
+      "recipientName": "umar",
+      "totalPrice": 169050,
+      "totalPayment": 200000,
+      "transactionDate": "29-7-2021",
+      "transactionItems": [
+        {
+          "userId": 12,
+          "productId": 2,
+          "price": 23000,
+          "productName": "Kaos Putih Polos",
+          "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/1ccc62f925118a5e2a54f9ca1b0eac4b197477ba_xxl-1.jpg",
+          "quantity": 7,
+          "id": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 12,
+      "address": "Jalan Baru",
+      "recipientName": "umar",
+      "totalPrice": 169050,
+      "totalPayment": 250000,
+      "transactionDate": "29-7-2021",
+      "transactionItems": [
+        {
+          "userId": 12,
+          "productId": 2,
+          "price": 23000,
+          "productName": "Kaos Putih Polos",
+          "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/1ccc62f925118a5e2a54f9ca1b0eac4b197477ba_xxl-1.jpg",
+          "quantity": 7,
+          "id": 2
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 12,
+      "address": "jalan ini",
+      "recipientName": "umar",
+      "totalPrice": 26250,
+      "totalPayment": 30000,
+      "transactionDate": "29-7-2021",
+      "transactionItems": [
+        {
+          "userId": 12,
+          "productId": 1,
+          "price": 25000,
+          "productName": "Kaos Hitam Polos",
+          "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/zoom/fd2a2f32f4199a5dd9039b7330d464cf84ff1d90_xxl-1.jpg",
+          "quantity": 1,
+          "id": 1
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Kaos Hitam Polos",
+      "price": 25000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/zoom/fd2a2f32f4199a5dd9039b7330d464cf84ff1d90_xxl-1.jpg",
+      "description": "Round-necked T-shirt in soft cotton jersey.",
+      "category": "kaos"
+    },
+    {
+      "id": 2,
+      "productName": "Kaos Putih Polos",
+      "price": 23000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/1ccc62f925118a5e2a54f9ca1b0eac4b197477ba_xxl-1.jpg",
+      "description": "Round-necked T-shirt in soft cotton jersey.",
+      "category": "kaos"
+    },
+    {
+      "id": 3,
+      "productName": "Kaos Biru Polos",
+      "price": 23000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/d1d6422cf983e912fcf35844ef791148b4034571_xxl-1.jpg",
+      "description": "Round-necked T-shirt in soft cotton jersey.",
+      "category": "kaos"
+    },
+    {
+      "id": 4,
+      "productName": "Kaos Hijau Polos",
+      "price": 23000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/dfa5aa69cdfc2efeeaf88589cced5d006578b19f_xxl-1.jpg",
+      "description": "Round-necked T-shirt in soft cotton jersey.",
+      "category": "kaos"
+    },
+    {
+      "id": 5,
+      "productName": "Kaos Pink Polos",
+      "price": 23000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/f2c7db75c31311893e546a3ec06e9bbd440b9e82_xxl-1.jpg",
+      "description": "Round-necked T-shirt in soft cotton jersey.",
+      "category": "kaos"
+    },
+    {
+      "id": 6,
+      "productName": "Kaos Navy Polos",
+      "price": 23000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/35986529ca3dc88d58695fe1396f909aaf0eea57_xxl-1.jpg",
+      "description": "Round-necked T-shirt in soft cotton jersey.",
+      "category": "kaos"
+    },
+    {
+      "id": 7,
+      "productName": "Kaos Gray Polos",
+      "price": 23000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/3ec4e96db1f27e1cf128c0ac288d13cc0dec9024_xxl-1.jpg",
+      "description": "Round-necked T-shirt in soft cotton jersey.",
+      "category": "kaos"
+    },
+    {
+      "id": 8,
+      "productName": "Kaos Ungu Polos",
+      "price": 23000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/49e592a3bd21a670a52a3d28d5d83f8850b37902_xxl-1.jpg",
+      "description": "Round-necked T-shirt in soft cotton jersey.",
+      "category": "kaos"
+    },
+    {
+      "id": 9,
+      "productName": "Celana Jogger Hitam",
+      "price": 350000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/fe9dd6bf4b93d1465ec773b6617462ff6b5752da_xxl-1.jpg",
+      "description": "Joggers in sweatshirt fabric with an elasticated drawstring waist, zipped side pockets, a low crotch and tapered legs with seams at the knees and ribbed hems.",
+      "category": "celana"
+    },
+    {
+      "id": 10,
+      "productName": "Celana Jogger Gray",
+      "price": 350000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/851c94d99369b32d97439196c47acbbc20b9aec6_xxl-1.jpg",
+      "description": "Joggers in sweatshirt fabric with an elasticated drawstring waist, zipped side pockets, a low crotch and tapered legs with seams at the knees and ribbed hems.",
+      "category": "celana"
+    },
+    {
+      "id": 11,
+      "productName": "Celana Jogger Dark Gray",
+      "price": 350000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/3bbd594e48b17413d683ad271cc4ccf36dbc0323_xxl-1.jpg",
+      "description": "Joggers in sweatshirt fabric with an elasticated drawstring waist, zipped side pockets, a low crotch and tapered legs with seams at the knees and ribbed hems.",
+      "category": "celana"
+    },
+    {
+      "id": 12,
+      "productName": "Celana Jogger Hijau",
+      "price": 200000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/5284ccffa03701c130991367932b957505dae0bb_xxl-1.jpg",
+      "description": "Joggers in sweatshirt fabric with an elasticated drawstring waist, zipped side pockets, a low crotch and tapered legs with seams at the knees and ribbed hems.",
+      "category": "celana"
+    },
+    {
+      "id": 13,
+      "productName": "Celana Jogger Light Gray",
+      "price": 350000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/08fd5e5ed97d34707884ed545ae4647f2f814808_xxl-1.jpg",
+      "description": "Joggers in sweatshirt fabric with an elasticated drawstring waist, zipped side pockets, a low crotch and tapered legs with seams at the knees and ribbed hems.",
+      "category": "celana"
+    },
+    {
+      "id": 14,
+      "productName": "Bucket Hat Hitam",
+      "price": 130000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/d3c02a301eaf7520a2ea9d11d0f198af4abfe922_xxl-1.jpg",
+      "description": "Bucket hat in woven fabric. Width of brim approx. 6 cm.",
+      "category": "aksesoris"
+    },
+    {
+      "id": 15,
+      "productName": "Ribbed Hat Hitam",
+      "price": 125000,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/64a66fb4385ba67b2ddb15445a3c4248656f72f2_xxl-1.jpg",
+      "description": "Double-layered hat in a soft rib knit with a sewn-in turn-up at the hem with a small fabric appliqué on the front.",
+      "category": "aksesoris"
+    },
+    {
+      "id": 16,
+      "productName": "Ribbed Hat Gray",
+      "price": 129900,
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/077e6a5cbf2d9d0ddb10beeaf185c0c84a4dfd03_xxl-1.jpg",
+      "description": "Double-layered hat in a soft rib knit with a sewn-in turn-up at the hem with a small fabric appliqué on the front.",
+      "category": "aksesoris"
+    }
+  ],
+  "carts": [
+    {
+      "userId": 12,
+      "productId": 15,
+      "price": 125000,
+      "productName": "Ribbed Hat Hitam",
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/64a66fb4385ba67b2ddb15445a3c4248656f72f2_xxl-1.jpg",
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "userId": 12,
+      "productId": 9,
+      "price": 350000,
+      "productName": "Celana Jogger Hitam",
+      "productImage": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/fe9dd6bf4b93d1465ec773b6617462ff6b5752da_xxl-1.jpg",
+      "quantity": 1,
+      "id": 2
+    }
+  ]
 }
